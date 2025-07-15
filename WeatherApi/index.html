@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Live Forecast</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="weather-container">
+        <h2>LIVE WEATHER</h2>
+        <form onsubmit="return false;">
+         <input id="locationInput" type="text" placeholder="Enter your location" name="location" autocomplete="off"><br>
+         <button id="getWeatherBtn">Submit</button>
+         <div id="weatherResult" class="weather-result"></div>
+        </form>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
