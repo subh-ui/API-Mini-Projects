@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>NewsNow</title>
+  <link rel="stylesheet" href="styles.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"/>
+</head>
+<body>
+
+  <header class="nav-bar">
+    <h1 class="logo"><i class="fas fa-newspaper"></i> NewsNow</h1>
+    <div class="theme-toggle" id="toggleTheme"><i class="fas fa-moon"></i></div>
+  </header>
+
+  <section class="filters">
+    <select id="newsCategory">
+      <option value="all">📰 All Categories</option>
+      <option value="general">General</option>
+      <option value="business">Business</option>
+      <option value="technology">Technology</option>
+      <option value="entertainment">Entertainment</option>
+      <option value="sports">Sports</option>
+      <option value="health">Health</option>
+      <option value="science">Science</option>
+    </select>
+
+    <select id="region">
+      <option value="global">🌍 Global</option>
+      <option value="usa">🇺🇸 USA</option>
+      <option value="uk">🇬🇧 UK</option>
+      <option value="india">🇮🇳 India</option>
+      <option value="france">🇫🇷 France</option>
+      <option value="japan">🇯🇵 Japan</option>
+    </select>
+
+    <select id="language">
+      <option value="">🌐 Any Language</option>
+      <option value="en">🇬🇧 English</option>
+      <option value="fr">🇫🇷 French</option>
+      <option value="de">🇩🇪 German</option>
+      <option value="es">🇪🇸 Spanish</option>
+    </select>
+
+    <div class="search-group">
+      <input type="text" id="searchInput" placeholder="Search News" />
+      <button id="searchBtn"><i class="fas fa-search"></i></button>
+    </div>
+  </section>
+
+  <main>
+    <h2 class="headline-title">Latest Headlines</h2>
+    <div id="loader" class="loader hidden"></div>
+    <div id="newsContainer" class="news-grid"></div>
+    <div class="pagination">
+      <button id="loadMoreBtn">Load More</button>
+    </div>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 NewsNow. Built with ❤️</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
