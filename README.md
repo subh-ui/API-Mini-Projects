@@ -4,12 +4,12 @@ API Mini Projects is a collection of small, focused Python projects that demonst
 
 These projects are great for learning and practicing:
 
-Sending HTTP requests
+•	Sending HTTP requests
 
-Handling JSON responses
+•	Handling JSON responses
 
-Working with external data sources
+•	Working with external data sources
 
-Using API keys securely
+•	Using API keys securely
 
-Building mini command-line or GUI applications
+•	Building mini command-line or GUI applications
