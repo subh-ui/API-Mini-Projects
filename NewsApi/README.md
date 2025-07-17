@@ -1,4 +1,4 @@
-# NewsNow
+#NewsNow
 
 NewsNow is a fully responsive and modern web application built using the NewsAPI.org to deliver real-time global news headlines. Users can browse top stories, search by keywords, and filter news based on category, country, and language — all within a sleek, mobile-friendly interface.
 
