@@ -24,7 +24,7 @@ const mapCountry = {
   japan: "jp"
 };
 
-const showLoader = () => loader.classList.remove("hidden");
+const showLoader = () => loader.classList.remove("hidden"); 
 const hideLoader = () => loader.classList.add("hidden");
 
 const getUrl = () => {
