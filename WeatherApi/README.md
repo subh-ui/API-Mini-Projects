@@ -23,7 +23,7 @@ It’s built with **HTML, CSS, and JavaScript** — no frameworks, just pure web
 ---
 
 ## 📸 Screenshot
-![Weather App Screenshot](./assets/pic.png)
+![Weather App Screenshot](./assests/pic.png)
 
 ---
 
