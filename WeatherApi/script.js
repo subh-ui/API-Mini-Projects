@@ -13,7 +13,7 @@ document.getElementById('getWeatherBtn').addEventListener('click', function () {
                 // Hide input and button
                 document.getElementById('locationInput').style.display = 'none';
                 document.getElementById('getWeatherBtn').style.display = 'none';
-
+                
                 resultDiv.innerHTML = `
                     <h3>Weather in ${data.location.name}, ${data.location.country}</h3>
                     <p><strong>Temperature:</strong> ${data.current.temp_c}°C</p>
