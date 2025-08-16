@@ -38,8 +38,8 @@ Users can browse trending stories, search by keywords, and filter articles by **
 ---
 
 ## 📂 Project Structure
-NewsNow/
-│
+NewsNow/<br>
+│<br>
 ├── index.html # Main HTML page<br>
 ├── styles.css # CSS styles (light/dark mode, responsive design)<br>
 ├── script.js # JavaScript logic for API fetching, filters, and rendering<br>
