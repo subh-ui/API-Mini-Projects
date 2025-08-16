@@ -40,9 +40,9 @@ Users can browse trending stories, search by keywords, and filter articles by **
 ## 📂 Project Structure
 NewsNow/
 │
-├── index.html # Main HTML page
-├── styles.css # CSS styles (light/dark mode, responsive design)
-├── script.js # JavaScript logic for API fetching, filters, and rendering
-├── newsapi.png # Screenshot for README
-├── assets/ # Optional folder for icons/images
+├── index.html # Main HTML page<br>
+├── styles.css # CSS styles (light/dark mode, responsive design)<br>
+├── script.js # JavaScript logic for API fetching, filters, and rendering<br>
+├── newsapi.png # Screenshot for README<br>
+├── assets/ # Optional folder for icons/images<br>
 └── README.md # Project documentation
