@@ -4,7 +4,7 @@
     box-sizing: border-box;
 }
 body{
-    background-image: url(weather.jpg);
+    background-image: url(/assests/weather.jpg);
     background-repeat: no-repeat;
     background-position: center;
     background-size: cover;
